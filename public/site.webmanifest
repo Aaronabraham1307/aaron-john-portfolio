@@ -1,0 +1,22 @@
+{
+  "name": "Aaron john .A - Portfolio",
+  "short_name": "Aaron john .A",
+  "description": "Software development and AI/ML portfolio for Aaron john .A.",
+  "icons": [
+    {
+      "src": "favicon-aja.png",
+      "sizes": "355x352",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "355x352",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#07121d",
+  "background_color": "#07121d",
+  "display": "standalone"
+}
