@@ -1,0 +1,10 @@
+{
+  "name": "aaron-abraham-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Apple-inspired liquid glass portfolio for Aaron john .A.",
+  "scripts": {
+    "start": "python -m http.server 4173",
+    "test": "node --check script.js"
+  }
+}
