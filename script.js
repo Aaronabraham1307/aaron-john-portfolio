@@ -1,20 +1,20 @@
 const certificates = [
-  { title: "Claude Platform 101", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/01-claude-platform-101.png" },
-  { title: "Claude Code 101", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/02-claude-code-101.png" },
-  { title: "Claude Code in Action", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/03-claude-code-in-action.png" },
-  { title: "AI Fluency for Builders", issuer: "Anthropic · CodePath.org", group: "anthropic", image: "/assets/certificates/04-ai-fluency-builders.png" },
-  { title: "AI Fluency for Nonprofits", issuer: "Anthropic · GivingTuesday", group: "anthropic", image: "/assets/certificates/05-ai-fluency-nonprofits.png" },
-  { title: "Teaching the AI Fluency Framework", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/06-teaching-ai-fluency-framework.png" },
-  { title: "AI Fluency for Educators", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/07-ai-fluency-educators.png" },
-  { title: "AI Fluency for Small Businesses", issuer: "Anthropic · PayPal", group: "anthropic", image: "/assets/certificates/08-ai-fluency-small-businesses.png" },
-  { title: "AI Fluency for Students", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/09-ai-fluency-students.png" },
-  { title: "AI Fluency: AI Capabilities & Limitations", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/10-ai-capabilities-limitations.png" },
-  { title: "Introduction to Claude Cowork", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/11-introduction-claude-cowork.png" },
-  { title: "Claude 101", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/12-claude-101.png" },
-  { title: "AI Fluency: Framework & Foundations", issuer: "Anthropic", group: "anthropic", image: "/assets/certificates/13-ai-fluency-foundations.png" },
-  { title: "Beginning C++ Programming - From Beginner to Beyond", issuer: "Udemy", group: "udemy", image: "/assets/certificates/14-udemy-cpp.png", detail: "Issued April 14, 2026 · 46 total hours · Certificate ID: UC-ec0ec1b1-3694-4433-9f95-3f930d926e01" },
-  { title: "Java Programming with AI", issuer: "Unstop", group: "unstop", image: "/assets/certificates/15-unstop-java-ai.png" },
-  { title: "Operating System (OS)", issuer: "Unstop", group: "unstop", image: "/assets/certificates/16-unstop-operating-system.png" }
+  { title: "Claude Platform 101", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/01-claude-platform-101.png" },
+  { title: "Claude Code 101", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/02-claude-code-101.png" },
+  { title: "Claude Code in Action", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/03-claude-code-in-action.png" },
+  { title: "AI Fluency for Builders", issuer: "Anthropic · CodePath.org", group: "anthropic", image: "/public/assets/certificates/04-ai-fluency-builders.png" },
+  { title: "AI Fluency for Nonprofits", issuer: "Anthropic · GivingTuesday", group: "anthropic", image: "/public/assets/certificates/05-ai-fluency-nonprofits.png" },
+  { title: "Teaching the AI Fluency Framework", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/06-teaching-ai-fluency-framework.png" },
+  { title: "AI Fluency for Educators", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/07-ai-fluency-educators.png" },
+  { title: "AI Fluency for Small Businesses", issuer: "Anthropic · PayPal", group: "anthropic", image: "/public/assets/certificates/08-ai-fluency-small-businesses.png" },
+  { title: "AI Fluency for Students", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/09-ai-fluency-students.png" },
+  { title: "AI Fluency: AI Capabilities & Limitations", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/10-ai-capabilities-limitations.png" },
+  { title: "Introduction to Claude Cowork", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/11-introduction-claude-cowork.png" },
+  { title: "Claude 101", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/12-claude-101.png" },
+  { title: "AI Fluency: Framework & Foundations", issuer: "Anthropic", group: "anthropic", image: "/public/assets/certificates/13-ai-fluency-foundations.png" },
+  { title: "Beginning C++ Programming - From Beginner to Beyond", issuer: "Udemy", group: "udemy", image: "/public/assets/certificates/14-udemy-cpp.png", detail: "Issued April 14, 2026 · 46 total hours · Certificate ID: UC-ec0ec1b1-3694-4433-9f95-3f930d926e01" },
+  { title: "Java Programming with AI", issuer: "Unstop", group: "unstop", image: "/public/assets/certificates/15-unstop-java-ai.png" },
+  { title: "Operating System (OS)", issuer: "Unstop", group: "unstop", image: "/public/assets/certificates/16-unstop-operating-system.png" }
 ];
 
 const grid = document.querySelector("#certificate-grid");
