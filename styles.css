@@ -131,3 +131,31 @@ body.is-loaded .portfolio-loader { opacity: 0; visibility: hidden; pointer-event
 @media (max-width: 540px) { .shell { width: calc(100% - 28px); }.site-header { top: 10px; width: calc(100% - 28px); min-height: 55px; border-radius: 19px; }.brand-name { font-size: 12px; }.brand-mark { width: 32px; height: 32px; }.hero { gap: 30px; padding-top: 110px; }.hero-kicker { margin-top: 24px; }.hero-intro { font-size: 15px; }.hero-actions { display: grid; }.button { width: 100%; }.hero-visual { min-height: 430px; width: 93%; }.portrait-card { inset: 9px 15px 8px 16px; }.note-skill { top: 31px; left: -22px; }.note-study { right: -18px; bottom: 42px; }.portrait-caption { bottom: 20px; left: 20px; }.education-card h3 { margin-top: 38px; }.education-metrics { position: static; margin-top: 32px; }.experience-card, .education-card { min-height: 365px; padding: 23px; }.project-card { min-height: 555px; }.project-content { padding: 24px; }.project-dashboard { top: 35px; width: 88%; height: 250px; }.project-gesture { top: 38px; }.skill-row { grid-template-columns: 1fr; gap: 7px; }.skill-row p { font-size: 15px; }.certificate-grid { grid-template-columns: 1fr; }.certificate-card { display: grid; grid-template-columns: 125px 1fr; grid-template-rows: auto auto auto; column-gap: 13px; min-height: 152px; padding: 12px; }.certificate-thumb { grid-row: 1 / span 3; height: 126px; }.certificate-card .certificate-meta { margin-top: 4px; }.certificate-card h3 { margin: 4px 25px 0 0; align-self: center; }.certificate-card .certificate-detail { margin: 2px 22px 0 0; }.certificate-card .open-icon { right: 13px; bottom: 12px; }.resume-panel { padding: 31px 25px; border-radius: 26px; }.contact-section { padding-bottom: 70px; }.contact-details { display: grid; gap: 10px; margin-top: 50px; }.site-footer { justify-content: start; }.site-footer > span { margin-left: auto; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .001ms !important; transition-duration: .001ms !important; } }
 @media (prefers-color-scheme: light) { .brand-mark { border-color: rgba(7, 30, 51, .34); box-shadow: 0 5px 16px rgba(7, 30, 51, .18); } }
+.aja-video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aja-showcase-video {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  max-height: 430px;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #000;
+  border: 1px solid rgba(215, 240, 255, .18);
+  border-radius: 18px;
+  box-shadow: 0 20px 55px rgba(0, 0, 0, .35);
+}
+
+@media (max-width: 600px) {
+  .aja-showcase-video {
+    max-height: 260px;
+    border-radius: 12px;
+  }
+}
+
